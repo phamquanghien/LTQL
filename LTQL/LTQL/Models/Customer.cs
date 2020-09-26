@@ -7,13 +7,13 @@ using System.Web;
 
 namespace LTQL.Models
 {
-    [Table("KhachHangs")]
-    public class KhachHang
+    [Table("Customers")]
+    public class Customer
     {
         [Key]
-        public string MaKhachHang { get; set; }
-        public string TenKhachHang { get; set; }
+        public string CustomerID { get; set; }
+        public string CustomerName { get; set; }
         [MaxLength(15)]
-        public string SoDienThoai { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

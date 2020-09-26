@@ -132,13 +132,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202009230119006_Create_Table_KhachHang.cs" />
-    <Compile Include="Migrations\202009230119006_Create_Table_KhachHang.Designer.cs">
-      <DependentUpon>202009230119006_Create_Table_KhachHang.cs</DependentUpon>
+    <Compile Include="Migrations\202009261758374_Create_Database.cs" />
+    <Compile Include="Migrations\202009261758374_Create_Database.Designer.cs">
+      <DependentUpon>202009261758374_Create_Database.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\KhachHang.cs" />
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\LTQLDbContext.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\Supplier.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -195,8 +201,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202009230119006_Create_Table_KhachHang.resx">
-      <DependentUpon>202009230119006_Create_Table_KhachHang.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202009261758374_Create_Database.resx">
+      <DependentUpon>202009261758374_Create_Database.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
