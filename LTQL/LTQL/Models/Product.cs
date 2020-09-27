@@ -8,6 +8,7 @@ namespace LTQL.Models
     {
         public string ProductID { get; set; }
         public string ProductName { get; set; }
+        public string Image { get; set; }
         public decimal Price { get; set; }
         [MaxLength(10)]
         public string Unit { get; set; }

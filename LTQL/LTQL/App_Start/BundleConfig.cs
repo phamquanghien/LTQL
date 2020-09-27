@@ -24,7 +24,9 @@ namespace LTQL
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/ImageDefind.css",
+                      "~/Content/W3.css"));
         }
     }
 }
